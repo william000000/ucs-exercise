@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/ucs-exercise-willy",
+        "create path (nt:unstructured) /content/dam/ucs-exercise-willy/jcr:content",
+        "set properties on /content/dam/ucs-exercise-willy/jcr:content",
+        "set cq:conf{String} to /conf/ucs-exercise-willy",
+        "set jcr:title{String} to \"UCS Willy\"",
+        "end"
+    ]
+}

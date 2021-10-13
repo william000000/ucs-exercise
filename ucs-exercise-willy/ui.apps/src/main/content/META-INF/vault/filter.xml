@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ucs-exercise-willy/clientlibs"/>
+    <filter root="/apps/ucs-exercise-willy/components"/>
+    <filter root="/apps/ucs-exercise-willy/i18n"/>
+    <filter root="/apps/ucs-exercise-willy/templates"/>
+</workspaceFilter>

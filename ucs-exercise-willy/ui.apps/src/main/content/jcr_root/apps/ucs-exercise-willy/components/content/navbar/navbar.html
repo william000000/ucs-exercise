@@ -1,0 +1,14 @@
+<div class="navbar__links">
+    <p data-sly-test="${wcmmode.edit && !resource.children}"
+        style="text-align: center;color: #31cd65;font-weight: bold">
+        Set Your Nav Links
+    </p>
+    <sly data-sly-list="${resource.children}">
+        <sly data-sly-list="${item.children}">
+            <a class="navbar__link" href="${item.link}.html" target="${item.targetOpening}">
+                <div class="icon ${item.icon}">${item}</div>
+                <p class="text--label">${item.label}</p>
+            </a>
+        </sly>
+    </sly>
+</div>

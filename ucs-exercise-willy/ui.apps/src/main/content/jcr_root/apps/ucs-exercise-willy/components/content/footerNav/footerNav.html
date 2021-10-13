@@ -1,0 +1,10 @@
+
+<sly data-sly-use.footer="com.ucsexercise.willy.core.models.Footer">
+  <p data-sly-test="${!footer.footerLinks}">Add Footer Links</p>
+
+  <div class="footer__lastLink" data-sly-list.item="${footer.footerLinks}">
+    <a href="${item.link}" class="footer__link">${item.label}</a>
+  </div>
+</sly>
+
+

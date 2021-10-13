@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ucs-exercise-willy" mode="merge"/>
+    <filter root="/content/ucs-exercise-willy" mode="merge"/>
+    <filter root="/content/dam/ucs-exercise-willy/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ucs-exercise-willy" mode="merge"/>
+</workspaceFilter>
